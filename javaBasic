@@ -1,0 +1,30 @@
+JDK / JRE /JVM
+
+*JVM runs Java bytecode.
+*JRE=JVM + Libraries + Other Components (JAVA RUNTIME ENVIRONMENT)
+*JDK=JRE + Compilers + Debuggers (JAVA DEVELOPMENT KIT)
+
+*Computer understand only 1 & 0, these are basic instruction.
+
+1.java code(write once run any time)
+2.compiled
+3.Bytecode(intermediate code,common for all OS)
+4.  BYTECODE ---------->Windows JVM(EXECUTION)------------>windows instructions
+
+JAVA CLASS AND OBJECT
+*Class is template, can use this template to create multiple instance of class(OBJECT)
+
+>BLOCK OF CODE CLASS
+-METHODS.
+-DATA.
+
+jshell> class country{
+   ...> }
+|  created class country
+
+jshell> country india = new country()
+india ==> country@3c0f93f1
+
+jshell> country usa = new country()
+usa ==> country@31610302
+
